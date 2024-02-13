@@ -1,0 +1,94 @@
+/* Default styles */
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    background-color: #F6E1D3;
+    font-family: 'Quicksand';
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+#h1 {
+    font-size: 80px;
+}
+
+#yesBtn {
+    margin-right: 40px; 
+    font-size: 25px; 
+}
+
+#noBtn {
+    
+    font-size: 25px; 
+}
+
+.gif-container {
+    display: none;
+    text-align: center;
+    
+}
+
+
+.gif-container img {
+    width: 400px; /* Adjust the width as needed */
+    height: auto; /* Maintain the aspect ratio */
+}
+
+.b {
+    background-color: #FC8EAC;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.b:hover {
+    background-color: #ff7b7b;
+}
+
+
+#newQuestion{
+    align-items: center;
+    justify-content: center;
+}
+
+.button-container2 {
+    display: flex;
+    justify-content: center;
+}
+
+#yesBtn2{
+    margin-right: 10px;
+}
+
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+#h1 {
+    animation: fadeIn 3s ease-in-out forwards; /* Apply the animation */
+}
